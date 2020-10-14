@@ -52,7 +52,7 @@ Para configurar o banco de dados inicie o Apache e o MySQL do [XAMPP](https://ww
 > CREATE TABLE comentarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_post INT(255) NULL,nome_user VARCHAR(20) NULL,descricao VARCHAR(200) NULL);<br>
 > CREATE TABLE seguidores (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_seguindo INT(255) NULL);<br>
 
-Pronto, já esta tudo configurado e você pode acessar pelo link http://localhost/photoshare/<br>
+Pronto, já esta tudo configurado e você pode acessar pelo link http://localhost/photoshare/<br><br>
 :warning: Caso esteja usando outro programa ver a documentação de como executar os passos acima corretamente.<br>
 :warning: Caso coloque a pasta em algum outro local ver como ficará o caminho ate o arquivo.
 
