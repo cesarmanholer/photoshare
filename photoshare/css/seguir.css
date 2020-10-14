@@ -24,28 +24,12 @@ html,body{
     padding: 0px 50px 0px 50px;
 }
 
-#dropdownMenuLink{
-    text-decoration: none;
-    color: black;
-}
-
 #photoshare{
     text-shadow: 0px 0px 2px black;
 }
 
-.comentarios{
-    width: 50%;
+.container{
     height: auto;
-    margin-left: 25%;
-    word-break: break-all;
-}
-
-.comentar{
     width: 50%;
-    height: auto;
     margin-left: 25%;
-}
-
-.comentar textarea{
-    margin-bottom: 25px;
 }

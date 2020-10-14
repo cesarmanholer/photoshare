@@ -94,5 +94,4 @@ require 'config.php';
     CREATE TABLE seguidores (id INT(255) AUTO_INCREMENT PRIMARY KEY,
                              id_user INT(255) NULL,
                              id_seguindo INT(255) NULL);
-
  -->

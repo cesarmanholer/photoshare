@@ -16,7 +16,15 @@ require 'config.php';
     </head>
     <body>
     <div class="topo">
-        <h5>Usuario: <?php echo $_COOKIE['nome'] ?></h5>
+        <div class="dropdown show">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Usuario: <?php echo $_COOKIE['nome'] ?>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="seguir.php">Seguir Usuarios</a>
+            </div>
+        </div>
         <h5 id="photoshare">Photo Share</h5>
         <button class="btn btn-primary" onclick="window.location.href='feed.php';">Voltar ao Feed</button>
     </div>
@@ -52,6 +60,7 @@ require 'config.php';
         $nome_user = $_COOKIE['nome'];
         $coment = $_POST['coment'];
         mysqli_query($con,"INSERT INTO comentarios (id_user,id_post,nome_user,descricao) VALUES ('$id_user','$id_post','$nome_user','$coment')");
+        header('Refresh: 0;');
     }
 
 ?>

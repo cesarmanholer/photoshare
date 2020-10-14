@@ -23,7 +23,15 @@ while($seguindo = mysqli_fetch_array($query_seguindo)){
     </head>
     <body>
         <div class="topo">
-            <h5>Usuario: <?php echo $_COOKIE['nome'] ?></h5>
+            <div class="dropdown show">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Usuario: <?php echo $_COOKIE['nome'] ?>
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="seguir.php">Seguir Usuarios</a>
+                </div>
+            </div>
             <h5 id="photoshare">Photo Share</h5>
             <button class="btn btn-primary" onclick="nova_publicacao();">Nova publicação</button>
         </div>
