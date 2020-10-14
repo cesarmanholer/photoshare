@@ -5,11 +5,12 @@
 </p>
 
 ### Topicos
-:large_blue_diamond: [Descrição do projeto](https://github.com/cesarmanholer/Kill-Fly-Alien#descri%C3%A7%C3%A3o-do-projeto)<br>
-:large_blue_diamond: [Tecnologias](https://github.com/cesarmanholer/Kill-Fly-Alien#descri%C3%A7%C3%A3o-do-projeto)<br>
-:large_blue_diamond: [Falhas do projeto](https://github.com/cesarmanholer/Kill-Fly-Alien#descri%C3%A7%C3%A3o-do-projeto)<br>
-:large_blue_diamond: [Pré-requisitos](https://github.com/cesarmanholer/Kill-Fly-Alien#descri%C3%A7%C3%A3o-do-projeto)<br>
-:large_blue_diamond: [Autor](https://github.com/cesarmanholer/Kill-Fly-Alien#descri%C3%A7%C3%A3o-do-projeto)<br>
+:large_blue_diamond: [Descrição do projeto](https://github.com/cesarmanholer/photoshare/blob/main/README.md#descri%C3%A7%C3%A3o-do-projeto)<br>
+:large_blue_diamond: [Tecnologias](https://github.com/cesarmanholer/photoshare/blob/main/README.md#tecnologias)<br>
+:large_blue_diamond: [Falhas do projeto](https://github.com/cesarmanholer/photoshare/blob/main/README.md#falhas-do-projeto)<br>
+:large_blue_diamond: [Pré-requisitos](https://github.com/cesarmanholer/photoshare/blob/main/README.md#pr%C3%A9-requisitos)<br>
+:large_blue_diamond: [Como instalar](https://github.com/cesarmanholer/photoshare/blob/main/README.md#como-instalar)<br>
+:large_blue_diamond: [Autor](https://github.com/cesarmanholer/photoshare/blob/main/README.md#autor)<br>
 
 ### Descrição do projeto
 Rede social para compartilhamento de fotos
