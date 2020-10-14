@@ -56,6 +56,8 @@ Pronto, já esta tudo configurado e você pode acessar pelo link http://localhos
 :warning: Caso esteja usando outro programa ver a documentação de como executar os passos acima corretamente.<br>
 :warning: Caso coloque a pasta em algum outro local ver como ficará o caminho ate o arquivo.
 
+:warning: Caso o seu banco de dados não esteja com a configuração localhost, root, sem senha. Terá que alterar as configurações no arquivo config.php
+
 ### Autor
 
 Cesar Augusto Manholer
