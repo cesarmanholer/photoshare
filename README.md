@@ -25,7 +25,7 @@ As seguintes tecnologias foram usadas na criação do projeto:
 - MySQL
 
 ### Falhas do projeto
-Meu objetivo com este projeto era criar somente a base para a publicação dos posts e comentarios, portanto não foquei em deixar o projeto bonito e com varios recursos, mesmo que eu consegui atingir minha meta que era criar um projeto simples eu coloquei que esta imcompleto para que caso alguem queira utiliza-lo ja saiba que tera que realizar algumas correções que irei comentar abaixo:
+Meu objetivo com este projeto era criar somente a base para a publicação dos posts e comentarios, portanto não foquei em deixar o projeto bonito e com varios recursos, mesmo que eu tenha conseguido atingir minha meta que era criar um projeto simples, coloquei que esta incompleto para que caso alguem queira utiliza-lo ja saiba que tera que realizar algumas correções que irei comentar abaixo:
 
 - Senhas não criptografadas.
 - SQL Injection.
