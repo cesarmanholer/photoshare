@@ -46,11 +46,14 @@ Primeiramente clone o repositorio para seu computador, isso pode ser feito com o
 Feito isso o repositório será clonado na pasta **downloads**, vá até a pasta **downloads** e localize a pasta **photoshare**, abra a pasta baixada e copie a pasta **photoshare** que se encontra dentro da que foi baixada, caso esteja usando o [XAMPP](https://www.apachefriends.org/pt_br/index.html) vá ate o local em que instalou ele ou pressione o botão explorer que se encontra na interface dele, com a pasta aberta cole a pasta **photoshare** dentro da pasta **htdocs**
 
 Para configurar o banco de dados inicie o Apache e o MySQL do [XAMPP](https://www.apachefriends.org/pt_br/index.html) clicando em **start**, quando os dois ficar verde abra o navegador e acesse o link: http://localhost/phpmyadmin/ com ele aberto clique na opção SQL e execute os comandos abaixo:
-> CREATE DATABASE photoshare;<br>
-> CREATE TABLE usuarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,usuario VARCHAR(20) NULL,email VARCHAR(30) NULL,senha VARCHAR(20) NULL);<br>
-> CREATE TABLE post (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,nome_user VARCHAR(20) NULL,foto VARCHAR(20) NULL,descricao VARCHAR(200) NULL);<br>
-> CREATE TABLE comentarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_post INT(255) NULL,nome_user VARCHAR(20) NULL,descricao VARCHAR(200) NULL);<br>
-> CREATE TABLE seguidores (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_seguindo INT(255) NULL);<br>
+
+```SQL
+CREATE DATABASE photoshare;
+CREATE TABLE photoshare.usuarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,usuario VARCHAR(20) NULL,email VARCHAR(30) NULL,senha VARCHAR(20) NULL);
+CREATE TABLE photoshare.post (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,nome_user VARCHAR(20) NULL,foto VARCHAR(20) NULL,descricao VARCHAR(200) NULL);
+CREATE TABLE photoshare.comentarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_post INT(255) NULL,nome_user VARCHAR(20) NULL,descricao VARCHAR(200) NULL);
+CREATE TABLE photoshare.seguidores (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_seguindo INT(255) NULL);
+```
 
 Pronto, já esta tudo configurado e você pode acessar pelo link http://localhost/photoshare/<br><br>
 :warning: Caso esteja usando outro programa ver a documentação de como executar os passos acima corretamente.<br>
