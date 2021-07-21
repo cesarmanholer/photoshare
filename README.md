@@ -49,9 +49,9 @@ Para configurar o banco de dados inicie o Apache e o MySQL do [XAMPP](https://ww
 
 ```SQL
 CREATE DATABASE photoshare;
-CREATE TABLE photoshare.usuarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,usuario VARCHAR(20) NULL,email VARCHAR(30) NULL,senha VARCHAR(20) NULL);
-CREATE TABLE photoshare.post (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,nome_user VARCHAR(20) NULL,foto VARCHAR(20) NULL,descricao VARCHAR(200) NULL);
-CREATE TABLE photoshare.comentarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_post INT(255) NULL,nome_user VARCHAR(20) NULL,descricao VARCHAR(200) NULL);
+CREATE TABLE photoshare.usuarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,usuario VARCHAR(200) NULL,email VARCHAR(200) NULL,senha VARCHAR(200) NULL);
+CREATE TABLE photoshare.post (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,nome_user VARCHAR(200) NULL,foto VARCHAR(200) NULL,descricao VARCHAR(200) NULL);
+CREATE TABLE photoshare.comentarios (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_post INT(255) NULL,nome_user VARCHAR(200) NULL,descricao VARCHAR(200) NULL);
 CREATE TABLE photoshare.seguidores (id INT(255) AUTO_INCREMENT PRIMARY KEY,id_user INT(255) NULL,id_seguindo INT(255) NULL);
 ```
 
